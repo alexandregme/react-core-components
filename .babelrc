@@ -1,3 +1,20 @@
 {
-    "presets" : ["es2015", "react"]
-}
+    "presets": ["react", "es2015"],
+    "env": {
+      "test": {
+        "plugins": ["istanbul"]
+      }
+    },
+    "plugins": [
+      [
+        "module-alias", [
+          { "src": "./core", "expose": "core" },
+          { "src": "./app/domains", "expose": "domains" }
+        ]
+      ],
+      [
+        "babel-plugin-transform-require-ignore", { "extensions": [".scss", ".css", ".svg"] }
+      ]
+    ]
+  }
+  
