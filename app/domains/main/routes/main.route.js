@@ -1,5 +1,5 @@
 import express from 'express';
-import { renderApp } from '../../../../core/utils/pageRender';
+import { renderApp } from 'core/utils/pageRender';
 
 /* eslint-disable no-unused-vars */
 import {

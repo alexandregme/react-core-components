@@ -11,6 +11,7 @@ const ManifestPlugin        = require('webpack-manifest-plugin');
 const PurifyCssPlugin       = require('purifycss-webpack');
 const ExtractSVGPlugin      = require('svg-sprite-loader/lib/extract-svg-plugin');
 
+//TODO REFACTOR
 const {
   PUBLIC_PATH,
   IMG_ASSETS_PATH,

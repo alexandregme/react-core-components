@@ -26,6 +26,7 @@ function getPageResources(domainName, pageName) {
     `${PUBLIC_PATH}${domainName}.${pageName}.css`
   ];
 
+  //TODO remove headerScript
   headerScriptSrcList = [
     `${PUBLIC_PATH}jquery-2.2.4.min.js`,
     `${PUBLIC_PATH}bootstrap.3.3.7.min.js`
@@ -80,7 +81,6 @@ function renderHTML( {
     <head>
       <title>${title}</title>
       ${styleSrcList.map(src => `<link rel="stylesheet" href="${src}">`).join('')}
-      ${generateScripts(headerScriptSrcList)}
     </head>
     <body>
       <div id="root">${html}</div>

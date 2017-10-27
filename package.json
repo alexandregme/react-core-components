@@ -27,6 +27,7 @@
   "dependencies": {
     "express": "^4.14.0",
     "forky": "^0.3.0",
+    "bootstrap": "^4.0.0-alpha.6",
 
     "js-ntc-logger": "^1.0.1",
     "react-input-range": "^1.1.3",

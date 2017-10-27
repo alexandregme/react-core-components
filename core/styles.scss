@@ -1,0 +1,11 @@
+// ------------------ Custom variables -------------
+@import "variables";
+
+// ------------------ Bootstrap 4 ------------------
+// Core mixins
+
+@import "~bootstrap/scss/functions"; 
+
+@import "~bootstrap/scss/bootstrap";
+
+html { font-size: 30px; }
