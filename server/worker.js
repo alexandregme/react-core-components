@@ -86,6 +86,11 @@ if (process.env.NODE_ENV === 'development') {
 // Apply gzip compression
 app.use(compress());
 
+//Redirects root to site domain
+app.get('/', (req, res) => {
+  res.redirect('/site');
+});
+
 // Server Side Rendering
 app.use(router());
 
