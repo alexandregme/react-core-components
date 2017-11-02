@@ -1,8 +1,8 @@
 import 'core/styles.scss';
 
 import { BaseClientRun } from 'core/utils/baseClientRun';
-import { MainPage } from './components/MainPage/MainPage';
+import { LandingPage } from './components/LandingPage/LandingPage';
 
 const runner = new BaseClientRun();
 
-runner.run(MainPage);
+runner.run(LandingPage);

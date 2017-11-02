@@ -1,5 +1,5 @@
 import express from 'express';
-import main from './main.route';
+import landing from './landing.route';
 
 export default () => {
 
@@ -10,10 +10,10 @@ export default () => {
   const outerRouter = express.Router();
 
   //path
-  innerRouter.use('/', main());
+  innerRouter.use('/', landing());
 
   //namespace
-  outerRouter.use('/main', innerRouter);
+  outerRouter.use('/site', innerRouter);
 
   return outerRouter;
 };

@@ -1,1 +1,1 @@
-export { App } from './components/MainPage/MainPage';
+export { App } from './components/LandingPage/LandingPage';
