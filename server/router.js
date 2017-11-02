@@ -5,7 +5,8 @@ export default () => {
   const router = express.Router();
 
   const domains = {
-    "main":    "./app/domains/main/routes"
+    "site":    "./app/domains/site/routes",
+    "hotsite":    "./app/domains/hotsite/routes"
   }
 
   console.info('Start domains mounting.');

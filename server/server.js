@@ -16,6 +16,7 @@ cluster.on('fork', (worker) => {
   console.log(`Worker #${worker.id} has been forked`);
 });
 
+//TODO remove forky 
 forky({
   path: workerFilename,
   workers: workerCount
