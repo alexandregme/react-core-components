@@ -6,7 +6,8 @@ export default () => {
 
   const domains = {
     "site":    "./app/domains/site/routes",
-    "hotsite":    "./app/domains/hotsite/routes"
+    "hotsite":    "./app/domains/hotsite/routes",
+    "blog":    "./app/domains/blog/routes"
   }
 
   console.info('Start domains mounting.');
