@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 import {render} from 'react-dom';
-import { DomainsNavigation } from 'core/components/DomainsNavigation'
+import { BasicLayout } from 'core/components/BasicLayout'
 
 export class App extends Component {
   render () {
   return (
-    <div>
-      <DomainsNavigation />
+    <BasicLayout>
       Hot Site Landing Page
-    </div>
+    </BasicLayout>
     );
   }
 }
