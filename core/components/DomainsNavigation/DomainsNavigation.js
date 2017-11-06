@@ -31,9 +31,7 @@ export class DomainsNavigation extends Component {
   render() {
     return (
         <nav>
-          {
-            items.map(this.renderDomainItem)
-          }
+          { items.map(this.renderDomainItem) }
         </nav>
     );
   }
