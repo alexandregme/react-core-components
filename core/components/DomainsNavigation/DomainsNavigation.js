@@ -19,20 +19,25 @@ export class DomainsNavigation extends Component {
 
   renderDomainItem({link, domainName}, i) {
     return (
-      <a
-          href={link}
+      <li
           key={i}
-          target='_self'
+          className="nav-item"
       >
-        {domainName}
-      </a>
+        <a
+            href={link}
+            target='_self'
+            className="nav-link"
+        >
+          {domainName}
+        </a>
+      </li>
     );
   }
   render() {
     return (
-        <nav>
+        <ul className="nav">
           { items.map(this.renderDomainItem) }
-        </nav>
+        </ul>
     );
   }
 }
