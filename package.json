@@ -1,6 +1,6 @@
 {
   "name": "react-core-components",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "devDependencies": {
     "babel-core": "^6.26.0",
@@ -11,25 +11,24 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.16.0",
+    "sass-loader": "^4.1.0",
     "cross-env": "^5.0.5",
     "nodemon": "^1.11.0",
     "postcss-loader": "^1.2.1",
     "purify-css": "1.2.2",
     "purifycss-webpack": "0.4.2",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "react-scripts": "1.0.14",
-    "sass-loader": "^4.1.0",
     "node-sass": "^4.5.3",
     "svg-sprite-loader": "https://registry.npmjs.org/svg-sprite-loader/-/svg-sprite-loader-0.3.0.tgz",
     "webpack": "^1.14.0",
     "extract-text-webpack-plugin": "^1.0.1"
   },
   "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.0.14",
     "express": "^4.14.0",
     "forky": "^0.3.0",
     "bootstrap": "^4.0.0-alpha.6",
-
     "js-ntc-logger": "^1.0.1",
     "react-input-range": "^1.1.3",
     "svg4everybody": "2.1.7",
@@ -45,7 +44,7 @@
     "immutable": "^3.8.1"
   },
   "scripts": {
-    "dev": "cross-env NODE_ENV=development CONFIG_PATH=./server/config.json WORKERS_COUNT=1 nodemon --debug=5858 ./server/server-development.js",
+    "dev": "cross-env NODE_ENV=development CONFIG_PATH=./server/config.json WORKERS_COUNT=1 nodemon --inspect=5858 ./server/server-development.js",
     "start": "webpack-dev-server --hot --host 0.0.0.0 --port 8080",
     "build": "webpack -p"
   }
