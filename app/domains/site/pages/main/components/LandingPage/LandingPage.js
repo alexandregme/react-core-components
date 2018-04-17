@@ -4,9 +4,9 @@ import { BasicLayout } from 'core/components/BasicLayout'
 
 import './LandingPage.scss';
 
-export class App extends Component {
+export default class App extends Component {
   render () {
-    return (  
+    return (
       <BasicLayout>
           Hello React project
       </BasicLayout>

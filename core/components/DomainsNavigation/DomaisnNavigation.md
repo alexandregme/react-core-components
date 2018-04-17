@@ -1,0 +1,2 @@
+## Default DomainsNavigation:
+    <DomainsNavigation />

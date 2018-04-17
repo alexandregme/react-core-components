@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { DomainsNavigation } from '../DomainsNavigation';
 import { Footer } from '../Footer';
 
-export class BasicLayout extends Component {
+export default class BasicLayout extends Component {
   render() {
     const { children } = this.props;
     

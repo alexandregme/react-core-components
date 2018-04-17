@@ -1,1 +1,1 @@
-export { App } from './components/LandingPage/LandingPage';
+export { default as App } from './components/LandingPage/LandingPage';

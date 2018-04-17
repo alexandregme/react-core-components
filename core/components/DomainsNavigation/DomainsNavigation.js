@@ -15,7 +15,7 @@ const items = [
   }
 ];
 
-export class DomainsNavigation extends Component {
+export default class DomainsNavigation extends Component {
 
   renderDomainItem({link, domainName}, i) {
     return (

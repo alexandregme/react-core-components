@@ -1,1 +1,1 @@
-export { DomainsNavigation } from './DomainsNavigation';
+export { default as DomainsNavigation } from './DomainsNavigation';
