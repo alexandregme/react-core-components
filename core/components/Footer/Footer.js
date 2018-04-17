@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import './Footer.scss';
 
-export class Footer extends Component {
+export default class Footer extends Component {
   render() {
     return (
-        <div>
+        <div className="div-oi">
             <hr />
-          footer
+            footer {this.props.value}
         </div>
     );
   }
