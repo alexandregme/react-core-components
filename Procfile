@@ -1,2 +1,1 @@
-web: npm run dev
-web: npm run styleguide
+web: honcho -f ProcfileHoncho start
