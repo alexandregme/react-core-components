@@ -1,0 +1,3 @@
+run
+  dev: npm run dev
+  styleguide: npm run styleguide
