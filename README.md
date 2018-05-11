@@ -2,15 +2,15 @@
 
 the project is deployed at [Heroku Deploy for react-core-components](https://react-core-components.herokuapp.com) visit.
 
-## Development environment
+## Development Environment
 
-### app
+### APP
 
 - `npm install`
 - `npm run dev`
 - [http://localhost:8080](http://localhost:8080)
 
-### style guide
+### styleguide
 
 - `npm run styleguide`
 - [http://0.0.0.0:3000](http://0.0.0.0:3000)
