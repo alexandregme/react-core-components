@@ -1,14 +1,19 @@
-#react-core-components
+# react-core-components
 
-the project is running under [Heroku Deploy for react-core-components](https://react-core-components.herokuapp.com)
+the project is deployed at [Heroku Deploy for react-core-components](https://react-core-components.herokuapp.com) visit.
 
-##Run
+## Development environment
 
-`npm install`
-`npm run dev`
+### app
 
-http://localhost:8080/
+- `npm install`
+- `npm run dev`
+- [http://localhost:8080](http://localhost:8080)
 
+### style guide
+
+- `npm run styleguide`
+- [http://0.0.0.0:3000](http://0.0.0.0:3000)
 
 ## Deployment
 
@@ -22,7 +27,7 @@ http://localhost:8080/
 - Trigger the deploy at `Deploy Branch` at `Manual deploy` section.
 - After deploy is complete open your app you should see the code there.
 
-## Push code from local to heroku
+### Push code from local to heroku
 
 - `heroku container:login`
 - `heroku container:push web`
