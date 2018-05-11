@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+
+  # web1
+  #####
+  web1:
+    build:
+      dockerfile: Dockerfile
+    restart: always

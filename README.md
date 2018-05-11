@@ -21,3 +21,9 @@ http://localhost:8080/
 - Select the repository and the branch.
 - Trigger the deploy at `Deploy Branch` at `Manual deploy` section.
 - After deploy is complete open your app you should see the code there.
+
+## Push code from local to heroku
+
+- `heroku container:login`
+- `heroku container:push web`
+- `heroku open -a react-core-components`
