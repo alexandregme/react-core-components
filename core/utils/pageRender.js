@@ -28,8 +28,8 @@ function getPageResources(domainName, pageName) {
 
   //TODO remove headerScript
   headerScriptSrcList = [
-    `${PUBLIC_PATH}jquery-2.2.4.min.js`,
-    `${PUBLIC_PATH}bootstrap.3.3.7.min.js`
+    `./jquery-2.2.4.min.js`,
+    `./bootstrap.3.3.7.min.js`
   ];
 
   return {
@@ -79,11 +79,14 @@ function renderHTML( {
     <!doctype html>
     <html lang="en">
     <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
       <title>${title}</title>
       ${styleSrcList.map(src => `<link rel="stylesheet" href="${src}">`).join('')}
+      ${headerScriptSrcList.map(src => `<link rel="stylesheet" href="${src}">`).join('')}
     </head>
-    <body>
-      <div id="root">${html}</div>
+    <body id="root">
+      ${html}
       ${generateScripts(scriptSrcList)}
     </body>
     </html>

@@ -8,7 +8,7 @@ export default class BasicLayout extends Component {
     const { children } = this.props;
     
     return (
-        <div className="container">
+        <div>
             <DomainsNavigation />
             { children }
             <Footer />
